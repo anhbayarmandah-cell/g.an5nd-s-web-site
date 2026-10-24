@@ -9,6 +9,7 @@ import { AnandHero } from './components/AnandHero.tsx';
 import { AnandDreamJob } from './components/AnandDreamJob.tsx';
 import { AnandRoadmap } from './components/AnandRoadmap.tsx';
 import { AnandFacts } from './components/AnandFacts.tsx';
+import { AnandProjects } from './components/AnandProjects.tsx';
 import { MotivationQuote } from './components/MotivationQuote.tsx';
 import { AnandFooter } from './components/AnandFooter.tsx';
 
@@ -48,6 +49,11 @@ export default function App() {
         {/* Facts & Hobbies Section */}
         <div id="facts">
           <AnandFacts />
+        </div>
+
+        {/* My Projects Section */}
+        <div id="projects">
+          <AnandProjects />
         </div>
 
         {/* Motivation Quote Section at the bottom */}

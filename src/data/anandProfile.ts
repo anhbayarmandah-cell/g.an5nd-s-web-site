@@ -183,6 +183,24 @@ export const anandProfile: AnandProfileData = {
     }
   ],
 
+  projects: [
+    {
+      id: 'comforting-chebakia',
+      title: 'Миний Вэб Бүтээл (Chebakia)',
+      subtitle: 'Netlify дээр байршсан бодит бүтээл',
+      description: 'Ананд миний бие даан боловсруулж, амжилттай интернетэд байршуулсан интерактив вэб төсөл. Цэвэр бүтэц, орчин үеийн кодчлолтой.',
+      url: 'https://comforting-chebakia-654408.netlify.app/',
+      tags: ['Netlify Live', 'Web Development', 'Interactive UI', 'Responsive Design'],
+      features: [
+        'Netlify сүлжээнд 24/7 тасралтгүй ажиллах live холбоос',
+        'Мобайл болон дэлгэцийн бүх хэмжээнд зохицох responsive дизайн',
+        'Хэрэглэгчийн таатай интерфэйс, интерактив шийдэл'
+      ],
+      category: 'Бодит төсөл',
+      isFeatured: true
+    }
+  ],
+
   motivationQuote: {
     text: "Quien se esfuerza por aprender un 1 % más cada día nunca deja de avanzar. Brilla, incluso lejos de casa.",
     emoji: "✨",

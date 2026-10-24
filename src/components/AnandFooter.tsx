@@ -17,10 +17,18 @@ export const AnandFooter: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-6 text-xs text-[#ADADAD]">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-xs text-[#ADADAD]">
             <span>🏀 JCL Сагсан бөмбөг</span>
             <span>👟 Sneaker & Streetwear</span>
             <span>💻 Web & Code</span>
+            <a 
+              href="https://comforting-chebakia-654408.netlify.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#F0A24C] hover:underline flex items-center gap-1"
+            >
+              <span>🚀 Chebakia Вэб</span>
+            </a>
           </div>
         </div>
 

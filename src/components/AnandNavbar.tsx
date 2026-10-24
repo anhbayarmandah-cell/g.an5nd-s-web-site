@@ -12,6 +12,7 @@ export const AnandNavbar: React.FC<AnandNavbarProps> = ({ activeTab, setActiveTa
     { id: 'dream', label: 'Мөрөөдлийн ажил' },
     { id: 'roadmap', label: 'Төлөвлөгөө' },
     { id: 'facts', label: 'Сонирхолтой баримтууд' },
+    { id: 'projects', label: 'Миний бүтээлүүд' },
   ];
 
   return (

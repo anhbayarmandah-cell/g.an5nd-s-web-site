@@ -21,6 +21,18 @@ export interface FactItem {
   tag?: string;
 }
 
+export interface ProjectItem {
+  id: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  url: string;
+  tags: string[];
+  features?: string[];
+  category: string;
+  isFeatured?: boolean;
+}
+
 export interface AnandProfileData {
   name: string;
   age: number;
@@ -64,6 +76,7 @@ export interface AnandProfileData {
   };
   secretFacts: FactItem[];
   interestingFacts: FactItem[];
+  projects?: ProjectItem[];
   motivationQuote?: {
     text: string;
     emoji: string;
